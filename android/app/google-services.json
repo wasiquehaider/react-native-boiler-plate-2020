@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "780782975375",
+    "firebase_url": "https://my-personal-tutor-795fc.firebaseio.com",
+    "project_id": "my-personal-tutor-795fc",
+    "storage_bucket": "my-personal-tutor-795fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780782975375:android:c584e635f59a1c43f533fa",
+        "android_client_info": {
+          "package_name": "com.react_native_boilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780782975375-0o47gjijt7j5op2uslvo36ch2f0hcooj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCS5rjtX7I2DTXWfwSCAmBBv5IArtsUdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780782975375-0o47gjijt7j5op2uslvo36ch2f0hcooj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
