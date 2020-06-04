@@ -11,7 +11,7 @@ const Text = (props: Object) => {
   const textStyle = StyleSheet.flatten([
     {
       textAlign,
-      fontFamily: Fonts.type[type],
+      // fontFamily: Fonts.type[type],
       fontSize: size in Fonts.size ? Fonts.size[size] : size,
       color: Colors.text[color] || color,
       backgroundColor: Colors.transparent,
@@ -34,14 +34,14 @@ Text.propTypes = {
     PropTypes.number,
   ]),
   children: PropTypes.node.isRequired,
-  type: PropTypes.oneOf(_.keys(Fonts.type)),
+  // type: PropTypes.oneOf(_.keys(Fonts.type)),
   textAlign: PropTypes.oneOf(['auto', 'left', 'right', 'center', 'justify']),
 };
 
 Text.defaultProps = {
   ...TextRN.defaultProps,
   size: 'normal',
-  type: 'base',
+  // type: 'base',
   color: 'primary',
   textAlign: 'left',
 };
